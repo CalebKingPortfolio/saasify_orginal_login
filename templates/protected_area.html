@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SaaSify Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-nav">
+        <h1>SaaSify Dashboard</h1>
+        <form action="/logout" method="get">
+            <button class="logout-btn">Logout</button>
+        </form>
+    </div>
+
+    <div class="dashboard">
+        <div class="greeting">
+            Hello, {{ user_name }} 👋 Welcome back!
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <h2>Invoices</h2>
+                <p>Manage and view all recent invoices.</p>
+            </div>
+            <div class="card">
+                <h2>Inventory</h2>
+                <p>Track stock levels and item movements.</p>
+            </div>
+            <div class="card">
+                <h2>Appointments</h2>
+                <p>View scheduled meetings and client bookings.</p>
+            </div>
+            <div class="card">
+                <h2>Users</h2>
+                <p>Manage team members and their permissions.</p>
+            </div>
+            <div class="card">
+                <h2>CRM</h2>
+                <p>Track customer interactions and leads.</p>
+            </div>
+            <div class="card">
+                <h2>Reports</h2>
+                <p>Analyze business data and performance metrics.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
