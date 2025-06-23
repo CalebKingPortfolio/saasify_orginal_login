@@ -73,14 +73,11 @@ def protected_area():
     return render_template(
         "protected_area.html", user_name=session["user_name"]
     )
-    
-
 
 @app.route("/logout", methods=["POST", "GET"])
 def logout():
     session.clear()
     return redirect("/")
-
 
 if __name__ == "__main__":
     app.run(debug=True)
