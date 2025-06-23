@@ -6,9 +6,11 @@ from google.oauth2 import id_token
 from google_auth_oauthlib.flow import Flow
 from pip._vendor import cachecontrol
 import google.auth.transport.requests
+from datetime import timedelta
 
 app = Flask("SaaSify Google Login")
 app.secret_key = "esc70wegQpJ9jTBia4eWEdpqy9r49cAU"
+app.permanent_session_lifetime = timedelta(minutes=15)
 
 GOOGLE_CLIENT_ID = (
     "362632682751-mn02ajnfa960bh48d20e3afb3rke00ea.apps.googleusercontent.com"
@@ -61,6 +63,7 @@ def callback():
         request=token_request,
         audience=GOOGLE_CLIENT_ID
     )
+    session.permanent = True
     session["user_email"] = id_info.get("email")
     session["user_name"] = id_info.get("name")
     return redirect("/protected_area")
@@ -83,4 +86,3 @@ def logout():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
