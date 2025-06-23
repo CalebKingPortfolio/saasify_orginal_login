@@ -70,7 +70,10 @@ def callback():
 def protected_area():
     if "user_email" not in session:
         return redirect("/")
-    return render_template("protected_area.html", user_name=session["user_name"])
+    return render_template(
+        "protected_area.html", user_name=session["user_name"]
+    )
+    
 
 
 @app.route("/logout", methods=["POST", "GET"])
