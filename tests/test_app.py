@@ -9,7 +9,8 @@ class SaaSifyLoginTests(unittest.TestCase):
     def setUp(self):
         app.config['TESTING'] = True
         app.secret_key = 'test_secret'
-        app.permanent_session_lifetime = timedelta(seconds=1)  # Short timeout for testing
+        # Short timeout for testing
+        app.permanent_session_lifetime = timedelta(seconds=1)
         self.client = app.test_client()
 
     def test_home_page(self):
@@ -33,7 +34,8 @@ class SaaSifyLoginTests(unittest.TestCase):
         time.sleep(2)  # Wait for session to expire
 
         response = self.client.get('/protected_area', follow_redirects=True)
-        self.assertIn(b'Login', response.data)  # Expect redirect back to login/index
+        # Expect redirect back to login/index
+        self.assertIn(b'Login', response.data)  
 
 
 if __name__ == '__main__':
