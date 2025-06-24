@@ -1,16 +1,13 @@
 import unittest
 import time
-from datetime import timedelta
 from app import app
 
 
 class SaaSifyLoginTests(unittest.TestCase):
 
     def setUp(self):
-        app.config['TESTING'] = True
-        app.secret_key = 'test_secret'
-        app.permanent_session_lifetime = timedelta(seconds=1)  # Short timeout for testing
         self.client = app.test_client()
+        self.client.testing = True
 
     def test_home_page(self):
         response = self.client.get('/')
@@ -24,19 +21,18 @@ class SaaSifyLoginTests(unittest.TestCase):
         response = self.client.get('/protected_area')
         self.assertEqual(response.status_code, 302)
 
-    def test_session_timeout_redirect(self):
-        with self.client.session_transaction() as sess:
-            sess['user_email'] = 'test@example.com'
-            sess['user_name'] = 'Test User'
-            sess.permanent = True
+    def test_session_timeout(self):
+        with self.client.session_transaction() as session:
+            session['user_email'] = 'test@example.com'
+            session['user_name'] = 'Test User'
+            session.permanent = True
 
-        time.sleep(2)  # Wait for session to expire
+        # Wait 6 seconds (if session timeout is set to 5 seconds)
+        time.sleep(6)
 
-        response = self.client.get('/protected_area', follow_redirects=True)
-        self.assertIn(
-            b'Login',
-            response.data
-        )
+        response = self.client.get('/protected_area')
+        self.assertEqual(response.status_code, 302)
+
 
 if __name__ == '__main__':
     unittest.main()
