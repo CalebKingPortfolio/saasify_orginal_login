@@ -34,7 +34,7 @@ class SaaSifyLoginTests(unittest.TestCase):
 
         response = self.client.get('/protected_area', follow_redirects=True)
         self.assertIn(b'Login', response.data)
-    
+
     def test_secure_cookie_settings(self):
         self.assertTrue(app.config['SESSION_COOKIE_SECURE'])
         self.assertTrue(app.config['SESSION_COOKIE_HTTPONLY'])
