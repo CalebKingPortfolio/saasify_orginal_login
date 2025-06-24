@@ -33,8 +33,10 @@ class SaaSifyLoginTests(unittest.TestCase):
         time.sleep(2)  # Wait for session to expire
 
         response = self.client.get('/protected_area', follow_redirects=True)
-        self.assertIn(b'Login', response.data)  # Expect redirect back to login/index
-
+        self.assertIn(
+            b'Login',
+            response.data
+        )
 
 if __name__ == '__main__':
     unittest.main()
