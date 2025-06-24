@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>SaaSify Dashboard</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="top-nav">
         <h1>SaaSify Dashboard</h1>
@@ -45,5 +47,14 @@
             </div>
         </div>
     </div>
+
+    <script>
+        // Refresh the page every 70 seconds to check session status
+        setTimeout(() => {
+            window.location.reload();
+        }, 300000);  // 300,000 ms = 5 minutes
+    </script>
+
 </body>
+
 </html>
