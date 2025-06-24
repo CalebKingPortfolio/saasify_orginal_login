@@ -12,6 +12,12 @@ app = Flask("SaaSify Google Login")
 app.secret_key = "esc70wegQpJ9jTBia4eWEdpqy9r49cAU"
 app.permanent_session_lifetime = timedelta(minutes=15)
 
+app.config.update(
+    SESSION_COOKIE_SECURE=True,
+    SESSION_COOKIE_HTTPONLY=True,
+    SESSION_COOKIE_SAMESITE='Lax'
+)
+
 GOOGLE_CLIENT_ID = (
     "362632682751-mn02ajnfa960bh48d20e3afb3rke00ea.apps.googleusercontent.com"
 )
