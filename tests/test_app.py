@@ -36,5 +36,5 @@ class SaaSifyLoginTests(unittest.TestCase):
         self.assertIn(b'Login', response.data)
 
 
-if __name__ == '__main__': 
+if __name__ == '__main__':
     unittest.main()
