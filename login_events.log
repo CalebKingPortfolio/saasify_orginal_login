@@ -1,0 +1,74 @@
+2025-06-26 09:50:24,727 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.104:5000
+2025-06-26 09:50:24,727 - [33mPress CTRL+C to quit[0m
+2025-06-26 09:50:24,735 -  * Restarting with stat
+2025-06-26 09:50:25,644 -  * Debugger is active!
+2025-06-26 09:50:25,668 -  * Debugger PIN: 117-332-258
+2025-06-26 09:51:05,453 -  * Detected change in 'C:\\Users\\Caleb King\\Desktop\\saasify_orginal_login\\app.py', reloading
+2025-06-26 09:51:05,529 -  * Restarting with stat
+2025-06-26 10:00:28,031 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.104:5000
+2025-06-26 10:00:28,031 - [33mPress CTRL+C to quit[0m
+2025-06-26 10:00:28,032 -  * Restarting with stat
+2025-06-26 10:00:28,926 -  * Debugger is active!
+2025-06-26 10:00:28,930 -  * Debugger PIN: 117-332-258
+2025-06-26 10:01:20,787 -  * Detected change in 'C:\\Users\\Caleb King\\Desktop\\saasify_orginal_login\\app.py', reloading
+2025-06-26 10:01:20,833 -  * Restarting with stat
+2025-06-26 10:01:36,335 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-26 10:01:36,335 - [33mPress CTRL+C to quit[0m
+2025-06-26 10:01:36,336 -  * Restarting with stat
+2025-06-26 10:01:37,251 -  * Debugger is active!
+2025-06-26 10:01:37,256 -  * Debugger PIN: 117-332-258
+2025-06-26 10:01:47,544 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.104:5000
+2025-06-26 10:01:47,544 - [33mPress CTRL+C to quit[0m
+2025-06-26 10:01:47,545 -  * Restarting with stat
+2025-06-26 10:01:48,476 -  * Debugger is active!
+2025-06-26 10:01:48,480 -  * Debugger PIN: 117-332-258
+2025-06-26 10:02:10,476 -  * Debugger is active!
+2025-06-26 10:02:10,476 -  * Debugger PIN: 117-332-258
+2025-06-26 10:02:11,872 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.104:5000
+2025-06-26 10:02:11,872 - [33mPress CTRL+C to quit[0m
+2025-06-26 10:02:11,872 -  * Restarting with stat
+2025-06-26 10:02:15,238 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.104:5000
+2025-06-26 10:02:15,238 - [33mPress CTRL+C to quit[0m
+2025-06-26 10:02:15,240 -  * Restarting with stat
+2025-06-26 10:02:16,171 -  * Debugger is active!
+2025-06-26 10:02:16,177 -  * Debugger PIN: 117-332-258
+2025-06-26 10:03:14,730 - 127.0.0.1 - - [26/Jun/2025 10:03:14] "GET / HTTP/1.1" 200 -
+2025-06-26 10:03:14,846 - 127.0.0.1 - - [26/Jun/2025 10:03:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-26 10:03:14,863 - 127.0.0.1 - - [26/Jun/2025 10:03:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-26 10:03:40,149 - 127.0.0.1 - - [26/Jun/2025 10:03:40] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-06-26 10:03:44,391 - User calebking9876@gmail.com (Caleb King) logged in from IP 127.0.0.1
+2025-06-26 10:03:44,392 - 127.0.0.1 - - [26/Jun/2025 10:03:44] "[32mGET /callback?state=Yl6vtlXInAw1W5MHYLut8mYzoMlLFN&code=4/0AUJR-x5Y1GhvtGGAETzFsInIuUuY3V489oaChtfqNHz9GAVOf1_lD_fzPTQHvbpwUXwmlA&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile&authuser=0&prompt=none HTTP/1.1[0m" 302 -
+2025-06-26 10:03:44,424 - 127.0.0.1 - - [26/Jun/2025 10:03:44] "GET /protected_area HTTP/1.1" 200 -
+2025-06-26 10:03:44,471 - 127.0.0.1 - - [26/Jun/2025 10:03:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-26 10:04:38,587 - 192.168.68.104 - - [26/Jun/2025 10:04:38] "GET / HTTP/1.1" 200 -
+2025-06-26 10:04:38,616 - 192.168.68.104 - - [26/Jun/2025 10:04:38] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-26 10:04:38,989 - 192.168.68.104 - - [26/Jun/2025 10:04:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-26 10:04:39,980 - 192.168.68.104 - - [26/Jun/2025 10:04:39] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-06-26 10:04:43,241 - 127.0.0.1 - - [26/Jun/2025 10:04:43] "[31m[1mGET /callback?state=HdnIgZi4u0HJO3WcGmLoZrpsNokN0E&code=4/0AUJR-x5uSHQVrZoTnLqFmvrmQLpBYGkkb-IFD5yZvObU2546K3okkbEdhWNZ_89iGUrKTA&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=0&prompt=none HTTP/1.1[0m" 400 -
+2025-06-26 10:08:44,871 - 127.0.0.1 - - [26/Jun/2025 10:08:44] "GET /protected_area HTTP/1.1" 200 -
+2025-06-26 10:08:44,884 - 127.0.0.1 - - [26/Jun/2025 10:08:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-26 10:13:45,871 - 127.0.0.1 - - [26/Jun/2025 10:13:45] "GET /protected_area HTTP/1.1" 200 -
+2025-06-26 10:13:45,884 - 127.0.0.1 - - [26/Jun/2025 10:13:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-26 10:18:27,699 - 127.0.0.1 - - [26/Jun/2025 10:18:27] "GET / HTTP/1.1" 200 -
+2025-06-26 10:18:27,727 - 127.0.0.1 - - [26/Jun/2025 10:18:27] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-26 10:18:28,109 - 127.0.0.1 - - [26/Jun/2025 10:18:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-26 10:18:46,873 - 127.0.0.1 - - [26/Jun/2025 10:18:46] "GET /protected_area HTTP/1.1" 200 -
+2025-06-26 10:18:46,888 - 127.0.0.1 - - [26/Jun/2025 10:18:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-26 10:23:47,872 - 127.0.0.1 - - [26/Jun/2025 10:23:47] "GET /protected_area HTTP/1.1" 200 -
+2025-06-26 10:23:47,883 - 127.0.0.1 - - [26/Jun/2025 10:23:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
