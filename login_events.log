@@ -252,3 +252,20 @@
 2025-06-29 09:28:30,697 -  * Restarting with stat
 2025-06-29 09:28:31,050 -  * Debugger is active!
 2025-06-29 09:28:31,054 -  * Debugger PIN: 128-283-529
+2025-06-29 09:28:34,363 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.102:5000
+2025-06-29 09:28:34,364 - [33mPress CTRL+C to quit[0m
+2025-06-29 09:28:34,369 -  * Restarting with stat
+2025-06-29 09:28:34,636 -  * Debugger is active!
+2025-06-29 09:28:34,642 -  * Debugger PIN: 128-283-529
+2025-06-29 09:28:45,775 - User admin@admin (Admin) logged in from IP 127.0.0.1
+2025-06-29 09:28:45,776 - 127.0.0.1 - - [29/Jun/2025 09:28:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-29 09:28:45,781 - 127.0.0.1 - - [29/Jun/2025 09:28:45] "GET /protected_area HTTP/1.1" 200 -
+2025-06-29 09:28:45,793 - 127.0.0.1 - - [29/Jun/2025 09:28:45] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:28:45,850 - 127.0.0.1 - - [29/Jun/2025 09:28:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:28:54,032 - 127.0.0.1 - - [29/Jun/2025 09:28:54] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2025-06-29 09:28:54,040 - 127.0.0.1 - - [29/Jun/2025 09:28:54] "GET / HTTP/1.1" 200 -
+2025-06-29 09:28:54,057 - 127.0.0.1 - - [29/Jun/2025 09:28:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:28:54,061 - 127.0.0.1 - - [29/Jun/2025 09:28:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
