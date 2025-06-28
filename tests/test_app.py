@@ -16,12 +16,17 @@ class SaaSifyLocalLoginTests(unittest.TestCase):
         # Make sure admin user exists
         conn = sqlite3.connect("users.db")
         cursor = conn.cursor()
-        cursor.execute("SELECT * FROM users WHERE email = ?", ("admin@saasify.com",))
+        cursor.execute(
+            "SELECT * FROM users WHERE email = ?",
+            ("admin@saasify.com",)
+        )
+
         if not cursor.fetchone():
             from werkzeug.security import generate_password_hash
-            cursor.execute("INSERT INTO users (email, password) VALUES (?, ?)", (
-                "admin@saasify.com", generate_password_hash("admin")
-            ))
+            cursor.execute(
+                "INSERT INTO users (email, password) VALUES (?, ?)",
+                ("admin@saasify.com", generate_password_hash("admin"))
+            )
         conn.commit()
         conn.close()
 
