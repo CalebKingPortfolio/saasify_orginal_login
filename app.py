@@ -8,7 +8,6 @@ from pip._vendor import cachecontrol
 import google.auth.transport.requests
 from datetime import timedelta
 import logging
-from datetime import datetime
 
 app = Flask("SaaSify Google Login")
 app.secret_key = "esc70wegQpJ9jTBia4eWEdpqy9r49cAU"
@@ -42,7 +41,7 @@ flow = Flow.from_client_secrets_file(
         "https://www.googleapis.com/auth/userinfo.email",
         "openid"
     ],
-    redirect_uri="http://127.0.0.1:5000/callback"  
+    redirect_uri="http://127.0.0.1:5000/callback"
 )
 
 
@@ -80,9 +79,11 @@ def callback():
     session["user_email"] = id_info.get("email")
     session["user_name"] = id_info.get("name")
 
-
     user_ip = request.headers.get('X-Forwarded-For', request.remote_addr)
-    logging.info(f"User {session['user_email']} ({session['user_name']}) logged in from IP {user_ip}")
+    logging.info(
+        f"User {session['user_email']} ({session['user_name']}) "
+        f"logged in from IP {user_ip}"
+    )
 
     return redirect("/protected_area")
 
@@ -101,4 +102,4 @@ def logout():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=5000)  
+    app.run(debug=True, host="0.0.0.0", port=5000)
