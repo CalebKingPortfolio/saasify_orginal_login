@@ -68,7 +68,7 @@ def callback():
     request_session = requests.session()
     cached_session = cachecontrol.CacheControl(request_session)
     token_request = google.auth.transport.requests.Request(
-    session=cached_session
+        session=cached_session
     )
 
     id_info = id_token.verify_oauth2_token(
