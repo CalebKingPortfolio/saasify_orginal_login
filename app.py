@@ -1,6 +1,5 @@
-import os
 import sqlite3
-from flask import Flask, render_template, session, redirect, request, abort
+from flask import Flask, render_template, session, redirect, request
 from datetime import timedelta
 import logging
 from werkzeug.security import check_password_hash, generate_password_hash
@@ -36,9 +35,13 @@ def init_db():
     cursor.execute("SELECT * FROM users WHERE email = ?", ("admin@admin",))
     if not cursor.fetchone():
         hashed_pw = generate_password_hash("Test1234@4&g")
-        cursor.execute("INSERT INTO users (email, password) VALUES (?, ?)", ("admin@admin", hashed_pw))
+        cursor.execute(
+            "INSERT INTO users (email, password) VALUES (?, ?)",
+            ("admin@admin", hashed_pw)
+        )
     conn.commit()
     conn.close()
+
 
 init_db()
 
@@ -65,13 +68,17 @@ def login():
             session["user_email"] = email
             session["user_name"] = "Admin"
 
-            user_ip = request.headers.get("X-Forwarded-For", request.remote_addr)
+            user_ip = request.headers.get(
+                "X-Forwarded-For", request.remote_addr
+            )
             logging.info(
                 f"User {email} (Admin) logged in from IP {user_ip}"
             )
             return redirect("/protected_area")
         else:
-            return render_template("index.html", error="Invalid email or password")
+            return render_template(
+                "index.html", error="Invalid email or password"
+            )
 
     return render_template("index.html")
 
