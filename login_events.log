@@ -72,3 +72,183 @@
 2025-06-26 10:18:46,888 - 127.0.0.1 - - [26/Jun/2025 10:18:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 2025-06-26 10:23:47,872 - 127.0.0.1 - - [26/Jun/2025 10:23:47] "GET /protected_area HTTP/1.1" 200 -
 2025-06-26 10:23:47,883 - 127.0.0.1 - - [26/Jun/2025 10:23:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 06:00:06,112 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.102:5000
+2025-06-29 06:00:06,112 - [33mPress CTRL+C to quit[0m
+2025-06-29 06:00:06,113 -  * Restarting with stat
+2025-06-29 06:00:06,350 -  * Debugger is active!
+2025-06-29 06:00:06,353 -  * Debugger PIN: 128-283-529
+2025-06-29 06:00:10,745 - 127.0.0.1 - - [29/Jun/2025 06:00:10] "GET / HTTP/1.1" 200 -
+2025-06-29 06:00:11,586 - 127.0.0.1 - - [29/Jun/2025 06:00:11] "GET / HTTP/1.1" 200 -
+2025-06-29 06:00:11,934 - 127.0.0.1 - - [29/Jun/2025 06:00:11] "GET / HTTP/1.1" 200 -
+2025-06-29 06:00:12,231 - 127.0.0.1 - - [29/Jun/2025 06:00:12] "GET / HTTP/1.1" 200 -
+2025-06-29 06:00:12,497 - 127.0.0.1 - - [29/Jun/2025 06:00:12] "GET / HTTP/1.1" 200 -
+2025-06-29 06:00:31,700 - 127.0.0.1 - - [29/Jun/2025 06:00:31] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-06-29 06:00:57,291 - 127.0.0.1 - - [29/Jun/2025 06:00:57] "GET / HTTP/1.1" 200 -
+2025-06-29 06:00:57,353 - 127.0.0.1 - - [29/Jun/2025 06:00:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 06:00:58,069 - 127.0.0.1 - - [29/Jun/2025 06:00:58] "GET / HTTP/1.1" 200 -
+2025-06-29 06:00:58,077 - 127.0.0.1 - - [29/Jun/2025 06:00:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 06:01:08,131 - 127.0.0.1 - - [29/Jun/2025 06:01:08] "GET / HTTP/1.1" 200 -
+2025-06-29 06:01:08,144 - 127.0.0.1 - - [29/Jun/2025 06:01:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 06:01:26,628 - 127.0.0.1 - - [29/Jun/2025 06:01:26] "GET / HTTP/1.1" 200 -
+2025-06-29 06:01:26,637 - 127.0.0.1 - - [29/Jun/2025 06:01:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 06:01:36,886 - 127.0.0.1 - - [29/Jun/2025 06:01:36] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-06-29 06:02:24,657 -  * Detected change in 'C:\\Users\\Caleb King\\Desktop\\saasify_orginal_login\\app.py', reloading
+2025-06-29 06:02:24,681 -  * Restarting with stat
+2025-06-29 06:02:24,926 -  * Debugger is active!
+2025-06-29 06:02:24,930 -  * Debugger PIN: 128-283-529
+2025-06-29 06:02:35,425 - 127.0.0.1 - - [29/Jun/2025 06:02:35] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-06-29 06:03:22,010 - 127.0.0.1 - - [29/Jun/2025 06:03:22] "GET / HTTP/1.1" 200 -
+2025-06-29 06:03:22,075 - 127.0.0.1 - - [29/Jun/2025 06:03:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 06:03:25,244 - 127.0.0.1 - - [29/Jun/2025 06:03:25] "POST /login HTTP/1.1" 200 -
+2025-06-29 06:03:25,260 - 127.0.0.1 - - [29/Jun/2025 06:03:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 06:03:28,465 - 127.0.0.1 - - [29/Jun/2025 06:03:28] "POST /login HTTP/1.1" 200 -
+2025-06-29 06:03:28,478 - 127.0.0.1 - - [29/Jun/2025 06:03:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 06:03:52,670 - 127.0.0.1 - - [29/Jun/2025 06:03:52] "POST /login HTTP/1.1" 200 -
+2025-06-29 06:03:52,694 - 127.0.0.1 - - [29/Jun/2025 06:03:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 06:04:29,550 - User admin@saasify.com (Admin) logged in from IP 127.0.0.1
+2025-06-29 06:04:29,551 - 127.0.0.1 - - [29/Jun/2025 06:04:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-29 06:04:29,574 - 127.0.0.1 - - [29/Jun/2025 06:04:29] "GET /protected_area HTTP/1.1" 200 -
+2025-06-29 06:04:29,585 - 127.0.0.1 - - [29/Jun/2025 06:04:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 06:04:47,313 - 127.0.0.1 - - [29/Jun/2025 06:04:47] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2025-06-29 06:04:47,316 - 127.0.0.1 - - [29/Jun/2025 06:04:47] "GET / HTTP/1.1" 200 -
+2025-06-29 06:04:47,327 - 127.0.0.1 - - [29/Jun/2025 06:04:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 06:05:09,677 - 127.0.0.1 - - [29/Jun/2025 06:05:09] "GET / HTTP/1.1" 200 -
+2025-06-29 06:05:09,687 - 127.0.0.1 - - [29/Jun/2025 06:05:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:19:51,023 - 127.0.0.1 - - [29/Jun/2025 09:19:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:19:51,025 - 127.0.0.1 - - [29/Jun/2025 09:19:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:20:04,750 - 127.0.0.1 - - [29/Jun/2025 09:20:04] "GET / HTTP/1.1" 200 -
+2025-06-29 09:20:04,761 - 127.0.0.1 - - [29/Jun/2025 09:20:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:20:04,764 - 127.0.0.1 - - [29/Jun/2025 09:20:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:20:36,921 - 127.0.0.1 - - [29/Jun/2025 09:20:36] "GET / HTTP/1.1" 200 -
+2025-06-29 09:20:36,938 - 127.0.0.1 - - [29/Jun/2025 09:20:36] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:20:36,949 - 127.0.0.1 - - [29/Jun/2025 09:20:36] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:20:37,467 - 127.0.0.1 - - [29/Jun/2025 09:20:37] "GET / HTTP/1.1" 200 -
+2025-06-29 09:20:37,476 - 127.0.0.1 - - [29/Jun/2025 09:20:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:20:37,479 - 127.0.0.1 - - [29/Jun/2025 09:20:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:20:37,669 - 127.0.0.1 - - [29/Jun/2025 09:20:37] "GET / HTTP/1.1" 200 -
+2025-06-29 09:20:37,678 - 127.0.0.1 - - [29/Jun/2025 09:20:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:20:37,679 - 127.0.0.1 - - [29/Jun/2025 09:20:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:20:53,946 - 127.0.0.1 - - [29/Jun/2025 09:20:53] "GET / HTTP/1.1" 200 -
+2025-06-29 09:20:53,957 - 127.0.0.1 - - [29/Jun/2025 09:20:53] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:20:53,969 - 127.0.0.1 - - [29/Jun/2025 09:20:53] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:21:18,594 - 127.0.0.1 - - [29/Jun/2025 09:21:18] "GET / HTTP/1.1" 200 -
+2025-06-29 09:21:18,604 - 127.0.0.1 - - [29/Jun/2025 09:21:18] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:21:18,614 - 127.0.0.1 - - [29/Jun/2025 09:21:18] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:21:30,613 - 127.0.0.1 - - [29/Jun/2025 09:21:30] "GET / HTTP/1.1" 200 -
+2025-06-29 09:21:30,623 - 127.0.0.1 - - [29/Jun/2025 09:21:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:21:30,634 - 127.0.0.1 - - [29/Jun/2025 09:21:30] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:24:07,931 - 127.0.0.1 - - [29/Jun/2025 09:24:07] "GET / HTTP/1.1" 200 -
+2025-06-29 09:24:07,964 - 127.0.0.1 - - [29/Jun/2025 09:24:07] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:24:07,982 - 127.0.0.1 - - [29/Jun/2025 09:24:07] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:24:16,376 - 127.0.0.1 - - [29/Jun/2025 09:24:16] "GET / HTTP/1.1" 200 -
+2025-06-29 09:24:16,386 - 127.0.0.1 - - [29/Jun/2025 09:24:16] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:24:16,398 - 127.0.0.1 - - [29/Jun/2025 09:24:16] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:24:20,966 - 127.0.0.1 - - [29/Jun/2025 09:24:20] "GET / HTTP/1.1" 200 -
+2025-06-29 09:24:20,977 - 127.0.0.1 - - [29/Jun/2025 09:24:20] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:24:20,987 - 127.0.0.1 - - [29/Jun/2025 09:24:20] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:24:25,311 - 127.0.0.1 - - [29/Jun/2025 09:24:25] "GET / HTTP/1.1" 200 -
+2025-06-29 09:24:25,321 - 127.0.0.1 - - [29/Jun/2025 09:24:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:24:25,331 - 127.0.0.1 - - [29/Jun/2025 09:24:25] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:24:29,506 - 127.0.0.1 - - [29/Jun/2025 09:24:29] "GET / HTTP/1.1" 200 -
+2025-06-29 09:24:29,519 - 127.0.0.1 - - [29/Jun/2025 09:24:29] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:24:29,530 - 127.0.0.1 - - [29/Jun/2025 09:24:29] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:24:35,424 - 127.0.0.1 - - [29/Jun/2025 09:24:35] "GET / HTTP/1.1" 200 -
+2025-06-29 09:24:35,434 - 127.0.0.1 - - [29/Jun/2025 09:24:35] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:24:35,444 - 127.0.0.1 - - [29/Jun/2025 09:24:35] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:24:41,513 - 127.0.0.1 - - [29/Jun/2025 09:24:41] "GET / HTTP/1.1" 200 -
+2025-06-29 09:24:41,523 - 127.0.0.1 - - [29/Jun/2025 09:24:41] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:24:41,532 - 127.0.0.1 - - [29/Jun/2025 09:24:41] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:24:47,691 - 127.0.0.1 - - [29/Jun/2025 09:24:47] "GET / HTTP/1.1" 200 -
+2025-06-29 09:24:47,710 - 127.0.0.1 - - [29/Jun/2025 09:24:47] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:24:47,715 - 127.0.0.1 - - [29/Jun/2025 09:24:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:24:48,339 - 127.0.0.1 - - [29/Jun/2025 09:24:48] "GET / HTTP/1.1" 200 -
+2025-06-29 09:24:48,353 - 127.0.0.1 - - [29/Jun/2025 09:24:48] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:24:48,363 - 127.0.0.1 - - [29/Jun/2025 09:24:48] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:25:05,783 - 127.0.0.1 - - [29/Jun/2025 09:25:05] "GET / HTTP/1.1" 200 -
+2025-06-29 09:25:05,798 - 127.0.0.1 - - [29/Jun/2025 09:25:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:25:05,805 - 127.0.0.1 - - [29/Jun/2025 09:25:05] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:25:09,521 - 127.0.0.1 - - [29/Jun/2025 09:25:09] "GET / HTTP/1.1" 200 -
+2025-06-29 09:25:09,530 - 127.0.0.1 - - [29/Jun/2025 09:25:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:25:09,540 - 127.0.0.1 - - [29/Jun/2025 09:25:09] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:25:12,483 - 127.0.0.1 - - [29/Jun/2025 09:25:12] "GET / HTTP/1.1" 200 -
+2025-06-29 09:25:12,493 - 127.0.0.1 - - [29/Jun/2025 09:25:12] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:25:12,496 - 127.0.0.1 - - [29/Jun/2025 09:25:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:25:13,372 - 127.0.0.1 - - [29/Jun/2025 09:25:13] "GET / HTTP/1.1" 200 -
+2025-06-29 09:25:13,385 - 127.0.0.1 - - [29/Jun/2025 09:25:13] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:25:13,395 - 127.0.0.1 - - [29/Jun/2025 09:25:13] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:25:27,611 - 127.0.0.1 - - [29/Jun/2025 09:25:27] "GET / HTTP/1.1" 200 -
+2025-06-29 09:25:27,626 - 127.0.0.1 - - [29/Jun/2025 09:25:27] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:25:27,636 - 127.0.0.1 - - [29/Jun/2025 09:25:27] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:25:31,555 - 127.0.0.1 - - [29/Jun/2025 09:25:31] "GET / HTTP/1.1" 200 -
+2025-06-29 09:25:31,564 - 127.0.0.1 - - [29/Jun/2025 09:25:31] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:25:31,574 - 127.0.0.1 - - [29/Jun/2025 09:25:31] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:25:37,063 - 127.0.0.1 - - [29/Jun/2025 09:25:37] "GET / HTTP/1.1" 200 -
+2025-06-29 09:25:37,073 - 127.0.0.1 - - [29/Jun/2025 09:25:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:25:37,082 - 127.0.0.1 - - [29/Jun/2025 09:25:37] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:26:10,926 - 127.0.0.1 - - [29/Jun/2025 09:26:10] "GET / HTTP/1.1" 200 -
+2025-06-29 09:26:10,937 - 127.0.0.1 - - [29/Jun/2025 09:26:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:26:10,950 - 127.0.0.1 - - [29/Jun/2025 09:26:10] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:26:18,646 - 127.0.0.1 - - [29/Jun/2025 09:26:18] "GET / HTTP/1.1" 200 -
+2025-06-29 09:26:18,657 - 127.0.0.1 - - [29/Jun/2025 09:26:18] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:26:18,669 - 127.0.0.1 - - [29/Jun/2025 09:26:18] "GET /static/style.css HTTP/1.1" 200 -
+2025-06-29 09:26:33,250 - User admin@saasify.com (Admin) logged in from IP 127.0.0.1
+2025-06-29 09:26:33,251 - 127.0.0.1 - - [29/Jun/2025 09:26:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-29 09:26:33,255 - 127.0.0.1 - - [29/Jun/2025 09:26:33] "GET /protected_area HTTP/1.1" 200 -
+2025-06-29 09:26:33,270 - 127.0.0.1 - - [29/Jun/2025 09:26:33] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:26:33,273 - 127.0.0.1 - - [29/Jun/2025 09:26:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:26:36,679 - 127.0.0.1 - - [29/Jun/2025 09:26:36] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2025-06-29 09:26:36,683 - 127.0.0.1 - - [29/Jun/2025 09:26:36] "GET / HTTP/1.1" 200 -
+2025-06-29 09:26:36,699 - 127.0.0.1 - - [29/Jun/2025 09:26:36] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:26:36,703 - 127.0.0.1 - - [29/Jun/2025 09:26:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:26:46,453 - 127.0.0.1 - - [29/Jun/2025 09:26:46] "POST /login HTTP/1.1" 200 -
+2025-06-29 09:26:46,469 - 127.0.0.1 - - [29/Jun/2025 09:26:46] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:26:46,472 - 127.0.0.1 - - [29/Jun/2025 09:26:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:27:00,072 - User admin@saasify.com (Admin) logged in from IP 127.0.0.1
+2025-06-29 09:27:00,072 - 127.0.0.1 - - [29/Jun/2025 09:27:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-29 09:27:00,075 - 127.0.0.1 - - [29/Jun/2025 09:27:00] "GET /protected_area HTTP/1.1" 200 -
+2025-06-29 09:27:00,088 - 127.0.0.1 - - [29/Jun/2025 09:27:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:27:00,090 - 127.0.0.1 - - [29/Jun/2025 09:27:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:27:40,136 -  * Detected change in 'C:\\Users\\Caleb King\\Desktop\\saasify_orginal_login\\app.py', reloading
+2025-06-29 09:27:40,159 -  * Restarting with stat
+2025-06-29 09:27:42,521 -  * Debugger is active!
+2025-06-29 09:27:42,525 -  * Debugger PIN: 128-283-529
+2025-06-29 09:27:44,176 -  * Detected change in 'C:\\Users\\Caleb King\\Desktop\\saasify_orginal_login\\app.py', reloading
+2025-06-29 09:27:44,207 -  * Restarting with stat
+2025-06-29 09:27:44,454 -  * Debugger is active!
+2025-06-29 09:27:44,458 -  * Debugger PIN: 128-283-529
+2025-06-29 09:27:50,337 -  * Detected change in 'C:\\Users\\Caleb King\\Desktop\\saasify_orginal_login\\app.py', reloading
+2025-06-29 09:27:50,362 -  * Restarting with stat
+2025-06-29 09:27:50,603 -  * Debugger is active!
+2025-06-29 09:27:50,607 -  * Debugger PIN: 128-283-529
+2025-06-29 09:27:54,340 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.102:5000
+2025-06-29 09:27:54,341 - [33mPress CTRL+C to quit[0m
+2025-06-29 09:27:54,344 -  * Restarting with stat
+2025-06-29 09:27:54,606 -  * Debugger is active!
+2025-06-29 09:27:54,610 -  * Debugger PIN: 128-283-529
+2025-06-29 09:27:55,825 - 127.0.0.1 - - [29/Jun/2025 09:27:55] "GET /protected_area HTTP/1.1" 200 -
+2025-06-29 09:27:55,834 - 127.0.0.1 - - [29/Jun/2025 09:27:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:27:55,897 - 127.0.0.1 - - [29/Jun/2025 09:27:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:27:57,432 - 127.0.0.1 - - [29/Jun/2025 09:27:57] "GET /protected_area HTTP/1.1" 200 -
+2025-06-29 09:27:57,445 - 127.0.0.1 - - [29/Jun/2025 09:27:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:27:57,449 - 127.0.0.1 - - [29/Jun/2025 09:27:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:27:58,562 - 127.0.0.1 - - [29/Jun/2025 09:27:58] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2025-06-29 09:27:58,567 - 127.0.0.1 - - [29/Jun/2025 09:27:58] "GET / HTTP/1.1" 200 -
+2025-06-29 09:27:58,582 - 127.0.0.1 - - [29/Jun/2025 09:27:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:27:58,586 - 127.0.0.1 - - [29/Jun/2025 09:27:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:28:11,756 - 127.0.0.1 - - [29/Jun/2025 09:28:11] "POST /login HTTP/1.1" 200 -
+2025-06-29 09:28:11,770 - 127.0.0.1 - - [29/Jun/2025 09:28:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:28:11,773 - 127.0.0.1 - - [29/Jun/2025 09:28:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:28:20,148 -  * Detected change in 'C:\\Users\\Caleb King\\Desktop\\saasify_orginal_login\\app.py', reloading
+2025-06-29 09:28:20,171 -  * Restarting with stat
+2025-06-29 09:28:20,418 -  * Debugger is active!
+2025-06-29 09:28:20,422 -  * Debugger PIN: 128-283-529
+2025-06-29 09:28:30,674 -  * Detected change in 'C:\\Users\\Caleb King\\Desktop\\saasify_orginal_login\\app.py', reloading
+2025-06-29 09:28:30,697 -  * Restarting with stat
+2025-06-29 09:28:31,050 -  * Debugger is active!
+2025-06-29 09:28:31,054 -  * Debugger PIN: 128-283-529
