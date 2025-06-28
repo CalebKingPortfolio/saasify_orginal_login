@@ -67,7 +67,9 @@ def callback():
     credentials = flow.credentials
     request_session = requests.session()
     cached_session = cachecontrol.CacheControl(request_session)
-    token_request = google.auth.transport.requests.Request(session=cached_session)
+    token_request = google.auth.transport.requests.Request(
+    session=cached_session
+    )
 
     id_info = id_token.verify_oauth2_token(
         id_token=credentials._id_token,
@@ -92,7 +94,10 @@ def callback():
 def protected_area():
     if "user_email" not in session:
         return redirect("/")
-    return render_template("protected_area.html", user_name=session["user_name"])
+    return render_template(
+        "protected_area.html",
+        user_name=session["user_name"]
+    )
 
 
 @app.route("/logout", methods=["POST", "GET"])

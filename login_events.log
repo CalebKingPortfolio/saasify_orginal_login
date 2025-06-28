@@ -111,3 +111,13 @@
 2025-06-29 05:49:20,963 - 127.0.0.1 - - [29/Jun/2025 05:49:20] "[32mGET /logout HTTP/1.1[0m" 302 -
 2025-06-29 05:49:20,965 - 127.0.0.1 - - [29/Jun/2025 05:49:20] "GET / HTTP/1.1" 200 -
 2025-06-29 05:49:20,975 - 127.0.0.1 - - [29/Jun/2025 05:49:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 05:52:29,180 -  * Detected change in 'C:\\Users\\Caleb King\\Desktop\\saasify_orginal_login\\app.py', reloading
+2025-06-29 05:52:29,227 -  * Restarting with stat
+2025-06-29 05:52:30,161 -  * Debugger is active!
+2025-06-29 05:52:30,166 -  * Debugger PIN: 128-283-529
+2025-06-29 05:53:25,340 -  * Detected change in 'C:\\Users\\Caleb King\\Desktop\\saasify_orginal_login\\app.py', reloading
+2025-06-29 05:53:25,384 -  * Restarting with stat
+2025-06-29 05:53:26,250 -  * Debugger is active!
+2025-06-29 05:53:26,262 -  * Debugger PIN: 128-283-529
+2025-06-29 05:53:32,539 -  * Detected change in 'C:\\Users\\Caleb King\\Desktop\\saasify_orginal_login\\app.py', reloading
+2025-06-29 05:53:32,580 -  * Restarting with stat
