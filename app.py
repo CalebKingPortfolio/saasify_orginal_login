@@ -14,7 +14,6 @@ app.config.update(
     SESSION_COOKIE_SAMESITE='Lax'
 )
 
-# Logging setup: Wazuh will read from this file
 logging.basicConfig(
     filename='/var/log/flask_login.log',
     level=logging.INFO,
