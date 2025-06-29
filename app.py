@@ -14,12 +14,12 @@ app.config.update(
     SESSION_COOKIE_SAMESITE='Lax'
 )
 
+# Logging setup: Wazuh will read from this file
 logging.basicConfig(
-    filename='login_events.log',
+    filename='/var/log/flask_login.log',
     level=logging.INFO,
     format='%(asctime)s - %(message)s'
 )
-
 
 def init_db():
     conn = sqlite3.connect("users.db")
@@ -31,25 +31,18 @@ def init_db():
             password TEXT NOT NULL
         )
     """)
-
     cursor.execute("SELECT * FROM users WHERE email = ?", ("admin@admin",))
     if not cursor.fetchone():
         hashed_pw = generate_password_hash("Test1234@4&g")
-        cursor.execute(
-            "INSERT INTO users (email, password) VALUES (?, ?)",
-            ("admin@admin", hashed_pw)
-        )
+        cursor.execute("INSERT INTO users (email, password) VALUES (?, ?)", ("admin@admin", hashed_pw))
     conn.commit()
     conn.close()
 
-
 init_db()
-
 
 @app.route("/")
 def index():
     return render_template("index.html")
-
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
@@ -63,40 +56,30 @@ def login():
         row = cursor.fetchone()
         conn.close()
 
+        user_ip = request.headers.get("X-Forwarded-For", request.remote_addr)
+
         if row and check_password_hash(row[0], password):
             session.permanent = True
             session["user_email"] = email
             session["user_name"] = "Admin"
-
-            user_ip = request.headers.get(
-                "X-Forwarded-For", request.remote_addr
-            )
-            logging.info(
-                f"User {email} (Admin) logged in from IP {user_ip}"
-            )
+            logging.info(f"User {email} (Admin) logged in from IP {user_ip}")
             return redirect("/protected_area")
         else:
-            return render_template(
-                "index.html", error="Invalid email or password"
-            )
+            logging.warning(f"Failed login attempt for {email} from IP {user_ip}")
+            return render_template("index.html", error="Invalid email or password")
 
     return render_template("index.html")
-
 
 @app.route("/protected_area")
 def protected_area():
     if "user_email" not in session:
         return redirect("/")
-    return render_template(
-        "protected_area.html", user_name=session["user_name"]
-    )
-
+    return render_template("protected_area.html", user_name=session["user_name"])
 
 @app.route("/logout", methods=["POST", "GET"])
 def logout():
     session.clear()
     return redirect("/")
-
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)

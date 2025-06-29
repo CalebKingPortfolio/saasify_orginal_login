@@ -279,3 +279,32 @@
 2025-06-29 09:34:35,753 -  * Debugger PIN: 128-283-529
 2025-06-29 09:35:34,589 -  * Detected change in 'C:\\Users\\Caleb King\\Desktop\\saasify_orginal_login\\app.py', reloading
 2025-06-29 09:35:34,611 -  * Restarting with stat
+2025-06-29 09:50:57,002 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.102:5000
+2025-06-29 09:50:57,003 - [33mPress CTRL+C to quit[0m
+2025-06-29 09:50:57,019 -  * Restarting with stat
+2025-06-29 09:50:57,250 -  * Debugger is active!
+2025-06-29 09:50:57,253 -  * Debugger PIN: 128-283-529
+2025-06-29 09:51:05,201 - 127.0.0.1 - - [29/Jun/2025 09:51:05] "GET / HTTP/1.1" 200 -
+2025-06-29 09:51:05,211 - 127.0.0.1 - - [29/Jun/2025 09:51:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:51:05,280 - 127.0.0.1 - - [29/Jun/2025 09:51:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:51:19,619 - User admin@admin (Admin) logged in from IP 127.0.0.1
+2025-06-29 09:51:19,620 - 127.0.0.1 - - [29/Jun/2025 09:51:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-06-29 09:51:19,629 - 127.0.0.1 - - [29/Jun/2025 09:51:19] "GET /protected_area HTTP/1.1" 200 -
+2025-06-29 09:51:19,641 - 127.0.0.1 - - [29/Jun/2025 09:51:19] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:51:19,644 - 127.0.0.1 - - [29/Jun/2025 09:51:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:51:21,143 - 127.0.0.1 - - [29/Jun/2025 09:51:21] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2025-06-29 09:51:21,147 - 127.0.0.1 - - [29/Jun/2025 09:51:21] "GET / HTTP/1.1" 200 -
+2025-06-29 09:51:21,161 - 127.0.0.1 - - [29/Jun/2025 09:51:21] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:51:21,164 - 127.0.0.1 - - [29/Jun/2025 09:51:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:51:23,253 - 127.0.0.1 - - [29/Jun/2025 09:51:23] "POST /login HTTP/1.1" 200 -
+2025-06-29 09:51:23,268 - 127.0.0.1 - - [29/Jun/2025 09:51:23] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:51:23,273 - 127.0.0.1 - - [29/Jun/2025 09:51:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:51:25,516 - 127.0.0.1 - - [29/Jun/2025 09:51:25] "POST /login HTTP/1.1" 200 -
+2025-06-29 09:51:25,527 - 127.0.0.1 - - [29/Jun/2025 09:51:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:51:25,531 - 127.0.0.1 - - [29/Jun/2025 09:51:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-06-29 09:51:29,127 - 127.0.0.1 - - [29/Jun/2025 09:51:29] "POST /login HTTP/1.1" 200 -
+2025-06-29 09:51:29,136 - 127.0.0.1 - - [29/Jun/2025 09:51:29] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-29 09:51:29,139 - 127.0.0.1 - - [29/Jun/2025 09:51:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
